@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use("/user", userRoutes);
 app.use("/admin", adminRoutes);
 
-mongoose.connect("mongodb+srv://akshat123:Akshat12345@cluster0.9frcojs.mongodb.net/CourseSellingApp");
+mongoose.connect("mongodb+srv://akshat123:<password>@cluster0.9frcojs.mongodb.net/CourseSellingApp");
 
 
 const userSchema = mongoose.Schema(
